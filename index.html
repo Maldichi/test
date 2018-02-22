@@ -1,0 +1,428 @@
+<!DOCTYPE html">
+<html>
+<head>
+	<meta charset=utf-8>
+	<title></title>
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+	<link href="css/calculator.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/china.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="css/vib_num.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="css/clip.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="css/hello_name.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="css/matrix.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="css/numbers.css" type="text/css" media="all" />
+	<link href="css/showImg.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/sprite.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="css/test.css" type="text/css" media="all" />
+
+	<!-- JS -->
+	<script src="js/jquery-1.4.1.min.js" type="text/javascript"></script>
+	<script src="js/jquery.jcarousel.pack.js" type="text/javascript"></script>
+
+	<!-- End JS -->
+	<style media="screen">
+		#task1 {display: none;}
+		#task2 {display: none;}
+		#task3 {display: none;}
+		#task4 {display: none;}
+		#task5 {display: none;}
+		#task6 {display: none;}
+		#task7 {display: none;}
+		#task8 {display: none;}
+		#task9 {display: none;}
+		#task10 {display: none;}
+	</style>
+
+</head>
+<body>
+
+<!-- Shell -->
+<div class="shell">
+
+	<!-- Header -->
+	<div id="header">
+		<!-- More Products -->
+		<div class="fcarousel">
+			<div class="fcarousel-holder">
+				<ul>
+						<li><img src="css/images/small1.jpg"/></li>
+						<li><img src="css/images/small2.jpg"/></li>
+						<li><img src="css/images/small3.jpg"/></li>
+						<li><img src="css/images/small4.jpg"/></li>
+						<li><img src="css/images/small5.jpg"/></li>
+						<li><img src="css/images/small6.jpg"/></li>
+						<li><img src="css/images/small7.jpg"/></li>
+						<li><img src="css/images/small8.jpg"/></li>
+						<li><img src="css/images/small9.jpg"/></li>
+						<li><img src="css/images/small10.jpg"/></li>
+						<li><img src="css/images/small11.jpg"/></li>
+						<li><img src="css/images/small12.jpg"/></li>
+						<li><img src="css/images/small13.jpg"></li>
+						<li><img src="css/images/small14.jpg"/></li>
+						<li><img src="css/images/small1.jpg"/></li>
+						<li><img src="css/images/small2.jpg"/></li>
+						<li><img src="css/images/small3.jpg"/></li>
+						<li><img src="css/images/small4.jpg"/></li>
+						<li><img src="css/images/small5.jpg"/></li>
+						<li><img src="css/images/small6.jpg"/></li>
+						<li class="last"><img src="css/images/small7.jpg"/></li>
+				</ul>
+			</div>
+			<div class="navigate">
+				<a class="prev">previous</a>
+				<a class="next">next</a>
+			</div>
+		</div>
+		<!-- End More Products -->
+	</div>
+	<!-- End Header -->
+
+	<!-- Main -->
+	<div id="main">
+		<div class="cl">&nbsp;</div>
+
+		<!-- Content -->
+		<div id="content">
+			<!-- Calculator-->
+
+			<div id="task1">
+
+		<div id="dvcalc">
+		<form name="calc" name="calc">
+			<input id="scr" name="scr" type="text" placeholder="0"><br>
+
+		<div id='dvbut'>
+			<input id="clean" type="button" name="clean" value="C">
+			<input id="memread" type="button" name="memread" value="MR">
+			<input id="memclean" type="button" name="memclean" value="MC">
+		<input id="bs" type="button" name="bs" value="&#9668">
+			<input id="eq" type="button" name="eq" value="=">
+			<br>
+			<input type="button" value="1" data-v="1">
+			<input type="button" value="2" data-v="2">
+			<input type="button" value="3" data-v="3">
+			<input id="pm" type="button" name="pm" value="&#177">
+		<input type="button"value="("  data-v="(">
+
+			<br>
+			<input type="button" value="4" data-v="4">
+			<input type="button" value="5" data-v="5">
+			<input type="button" value="6" data-v="6">
+			<input type="button" value="/" data-v="/">
+		<input type="button"value=")" data-v=")">
+			<br>
+			<input type="button" value="7" data-v="7">
+			<input type="button" value="8" data-v="8">
+			<input type="button" value="9" data-v="9">
+			<input type="button" value="*" data-v="*">
+		<input type="button" name="mplus" value="M+">
+			<br>
+			<input type="button" value="+" data-v="+">
+			<input type="button" value="0" data-v="0">
+			<input type="button" value="-" data-v="-">
+			<input type="button" value="." data-v=".">
+		<input type="button" name="mmin" value="M-">
+			<br>
+		</div>
+			<br>
+		</form>
+		</div>
+		</div>
+
+		<!-- End Calculator-->
+
+		<!--Horoscope-->
+		<div id="task2">
+
+
+		<div>
+	<input id='dataSign' type='text' placeholder='Укажите год'>
+	<input id='check' type='button' value='Click' onclick='identSign()'>
+	</div>
+	<div id='rooster' class='rooster'>
+		<img src="css/images/rooster.png"><br>
+		Знак года - Петух</div>
+	<div id='dog' class='dog'>
+		<img src="css/images/dog.png"><br>
+		Знак года - Собака</div>
+	<div id='pig' class='pig'>
+		<img src="css/images/pig.png"><br>
+		Знак года - Свинья</div>
+	<div id='rat' class='rat'>
+		<img src="css/images/rat.png">
+		<br>Знак года - Крыса</div>
+	<div id='bull' class='bull'>
+		<img src="css/images/bull.png"><br>
+		Знак года - Бык</div>
+	<div id='tiger' class='tiger'>
+		<img src="css/images/tiger.png"><br>
+		Знак года - Тигр</div>
+	<div id='rabbit' class='rabbit'>
+		<img src="css/images/rabbit.png"><br>
+		Знак года - Кролик</div>
+	<div id='dragon' class='dragon'>
+		<img src="css/images/dragon.png"><br>
+		Знак года - Дракон</div>
+	<div id='snake' class='snake'>
+		<img src="css/images/snake.png"><br>
+		Знак года - Змея</div>
+	<div id='horse' class='horse'>
+		<img src="css/images/horse.png"><br>
+		Знак года - Лошадь</div>
+	<div id='goat' class='goat'>
+		<img src="css/images/goat.png"><br>
+		Знак года - Коза</div>
+	<div id='monkey' class='monkey'>
+		<img src="css/images/monkey.png"><br>
+		Знак года - Обезьяна</div>
+	<div id='empty' class='empty'>
+		<img src="css/images/stop.jpg">
+		<br>Год, как правило, состоит из цифр;)</div>
+		</div>
+
+		<!--End Horoscope-->
+
+		<!--Viber Number-->
+
+		<div id="task3">
+
+    <div>
+      <p>Indicate the year</p>
+      <input type="number" id="year" placeholder="1999"><p id="cor1">Correct</p><p id="incor1">Incorrect</p><br>
+      <p>Indicate the month</p>
+      <input type="number" id="month" placeholder="09"><p id="cor2">Correct</p><p id="incor2">Incorrect</p><br>
+      <p>Indicate the day</p>
+      <input type="number" id="day" placeholder="28"><p id="cor3">Correct</p><p id="incor3">Incorrect</p><br>
+      <input type="button" value="Check date" onclick="checkInfo()"><p id="incor4">Can`t identify the date</p><br>
+      <input type="button" value="Get vib number" onclick="vibNum()">
+    </div>
+    <div id="res"></div>
+    </div>
+
+		<!--End Viber Number-->
+
+		<!--Clip String-->
+
+		<div id="task4">
+
+    <p>Обрезка текста по 30-й символ</p>
+    <ul id="lorem">
+    <li>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.</li>
+    <li>Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</li>
+    <li>В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.</li>
+    <li>Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн.</li>
+    <li>Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах.</li>
+    <li>В более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.</li>
+    <input id="but" type="button" value="Go" class="go">
+  </ul>
+  </div>
+
+
+		<!--End Clip String-->
+
+		<!--Hello Name-->
+		<div id="task5">
+			<input id="youname" type="text" placeholder="What is You name?">
+			<input id="youage" type="number" placeholder="How old are you?">
+			<input id="helloname" type="button" value="Go Check">
+
+    </div>
+
+		<!--End Hello Name-->
+
+		<!--Matrix-->
+		<div id="task6">
+		  <div id="matrixesall">
+		    <label for="dimension">Размерность матрицы</label>
+		      <select id="dimension">
+		        <option>3*3</option>
+		        <option>4*4</option>
+		        <option>5*5</option>
+		        <option>6*6</option>
+		        <option>7*7</option>
+		        <option>8*8</option>
+		        <option>9*9</option>
+		        <option>10*10</option>
+		        <option>11*11</option>
+		      </select>
+		    <div id="matrixs"></div>
+		  </div>
+		</div>
+
+		<!--End Matrix-->
+
+		<!--Game Numbers-->
+		<div id="task7">
+      <input id="givennum" type="number" placeholder="Введите четырехзначное число">
+      <input type="button" value="Check" onclick="check()"><br>
+      <div id="resstep">
+
+      </div>
+    </div>
+
+		<!--End Game Numbers-->
+
+		<!--Show Image-->
+		<div id="task8">
+      <div id="mainwind">
+  	     <img id="mwimg" src="">
+      </div>
+      <div id="sheath">
+        <ul>
+            <li><img src="css/images/nature1.jpg" show-im='img/nature1.jpg'></li>
+            <li><img src="css/images/minion1.jpg" show-im='img/minion1.jpg'></li>
+            <li><img src="css/images/smile1.jpeg" show-im='img/smile1.jpeg'></li>
+            <li><img src="css/images/phoenix1.jpg" show-im='img/phoenix1.jpg'></li>
+            <li><img src="css/images/weapon1.jpg" show-im='img/weapon1.jpg'></li>
+            <li><img src="css/images/dog1.jpg" show-im='img/dog1.jpg'></li>
+            <li><img src="css/images/cat1.jpg" show-im='img/cat1.jpg'></li>
+        </ul>
+      </div>
+    </div>
+
+		<!--End Show Image-->
+
+		<!--Sprite-->
+
+		<div id="task9">
+	    <button id="fup">&#9650</button>
+	      <div>
+	        <button id="fleft">&#9668</button>
+	      <div id="fon">
+	      </div>
+	        <button id="fright">&#9658</button>
+	      </div>
+	    <button id="fdown">&#9660</button>
+
+	  </div>
+
+		<!--End Sprite-->
+
+		<!--Test-->
+
+		<div id="task10">
+      <div id="test">
+        1. Когда начались курсы WEB8?<br>
+        <label><input name="r1" value="1" type="radio">22.05.2017</label><br>
+        <label><input name="r1" value="0" type="radio">23.05.2017</label><br>
+        <label><input name="r1" value="0" type="radio">20.05.2017</label><br><br>
+
+        2. Какой язык программирования используют фронт-энд разработчики?<br>
+        <label><input name="r2" value="0" type="radio">MySql</label><br>
+        <label><input name="r2" value="1" type="radio">JS</label><br>
+        <label><input name="r2" value="0" type="radio">PHP</label><br><br>
+
+        3. Как зовут преподавателя по JS?<br>
+        <label><input name="r3" value="0" type="radio">Шуляк Николай</label><br>
+        <label><input name="r3" value="0" type="radio">Хатян Олег</label><br>
+        <label><input name="r3" value="1" type="radio">Елисеева Елена</label><br><br>
+
+        4. Какого цвета книга по JS?<br>
+        <label><input name="r4" value="1" type="radio">Вы о чем?</label><br>
+        <label><input name="r4" value="0" type="radio">Синяя</label><br>
+        <label><input name="r4" value="0" type="radio">Зеленая</label><br><br>
+
+        5. Как зовут преподавателя по PHP?<br>
+        <label><input name="r5" value="0" type="radio">Елисеева Елена</label><br>
+        <label><input name="r5" value="0" type="radio">Ярмусевич Инна</label><br>
+        <label><input name="r5" value="1" type="radio">Хатян Олег</label><br><br>
+
+        6. В каком корпусе проходят занятия WEB8?<br>
+        <label><input name="r6" value="0" type="radio">22</label><br>
+        <label><input name="r6" value="0" type="radio">1</label><br>
+        <label><input name="r6" value="1" type="radio">24</label><br><br>
+</div>
+        <input id="buttest" type="button" value="Проверим?"><br>
+
+        <div id="res0">
+          Результат: 0 правильных ответов. Печально.
+        </div>
+        <div id="res1">
+          Результат: 1 правильный ответ... <br>Может Вы здесь случайно?
+        </div>
+        <div id="res2">
+          Результат: 2 правильных ответа. <br>Явно Вы сюда не учиться пришли.
+        </div>
+        <div id="res3">
+          Результат: 3 правильных ответа. <br>Я даже догадываюсь кто проходил тест;)
+        </div>
+        <div id="res4">
+          Результат: 4 правильных ответа. <br>Скоро курсы заканчиваются - приходите в сознание;)
+        </div>
+        <div id="res5">
+          Результат: 5 правильных ответов. <br>Внимательнее, пожалуйста;)
+        </div>
+        <div id="res6">
+          Результат: Вы ни разу не ошиблись! <br>Молодец. МО-ЛО-ДЕЦ!!! Но сертификат я не выдаю)))
+        </div>
+
+    </div>
+
+		<!--End Test-->
+
+</div>
+		<!-- End Content -->
+
+		<!-- Sidebar -->
+		<div id="sidebar">
+
+			<!-- Tasks -->
+			<div class="box tasks">
+				<h2>Homework <span></span></h2>
+				<div id="menu" class="box-task">
+					<ul>
+					    <li><input id="mtask1" type="button" value="Task 1"></li>
+					    <li><input id="mtask2" type="button" value="Task 2"></li>
+					    <li><input id="mtask3" type="button" value="Task 3"></li>
+					    <li><input id="mtask4" type="button" value="Task 4"></li>
+					    <li><input id="mtask5" type="button" value="Task 5"></li>
+					    <li><input id="mtask6" type="button" value="Task 6"></li>
+					    <li><input id="mtask7" type="button" value="Task 7"></li>
+					    <li><input id="mtask8" type="button" value="Task 8"></li>
+					    <li><input id="mtask9" type="button" value="Task 9"></li>
+					    <li><input id="mtask10" type="button" value="Task 10"></li>
+					</ul>
+				</div>
+			</div>
+			<!-- End Tasks -->
+
+		</div>
+		<!-- End Sidebar -->
+
+		<div class="cl">&nbsp;</div>
+	</div>
+	<!-- End Main -->
+
+	<!-- Side Full -->
+	<div class="side-full">
+
+	</div>
+	<!-- End Side Full -->
+
+	<!-- Footer -->
+	<div id="footer">
+		WEB8 Inna Yarmusevych
+		<div id="myclock">
+
+		</div>
+
+	</div>
+	<!-- End Footer -->
+
+</div>
+<!-- End Shell -->
+
+
+</body>
+<script src="js/index.js" type="text/javascript"></script>
+<script src="js/calculator.js" type="text/javascript"></script>
+<script src="js/china.js" type="text/javascript"></script>
+<script src="js/vib_num.js" type="text/javascript"></script>
+<script src="js/clip.js" type="text/javascript"></script>
+<script src="js/hello_name.js" type="text/javascript"></script>
+<script src="js/matrix.js" type="text/javascript"></script>
+<script src="js/numbers.js" type="text/javascript"></script>
+<script src="js/showImg.js" type="text/javascript"></script>
+<script src="js/sprite.js" type="text/javascript"></script>
+<script src="js/test.js" type="text/javascript"></script>
+</html>

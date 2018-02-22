@@ -1,0 +1,4 @@
+#task9 { text-align: center; margin-top: 100px; }
+#task9 #fon{ width:75px; height:75px; background-image: url(images/sprite-sample.png); background-position: -2px -2px; display:inline-block; }
+
+#task9 #fleft, #fright{  margin-top: 52px; }

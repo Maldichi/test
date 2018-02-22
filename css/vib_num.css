@@ -1,0 +1,12 @@
+
+#task3{  margin-top: 100px;  text-align: center;  font-size: 25pt;  font-family: fantasy;  background-color: beige; }
+#task3 #cor1{  display: none;  }
+#task3 #incor1{  display: none;  color: red; }
+#task3 #cor2{  display: none;  }
+#task3 #incor2{  display: none;  color: red; }
+#task3 #cor3{  display: none;  }
+#task3 #incor3{  display: none;  color: red; }
+#task3 #incor4{  display: none;  color: red; }
+#task3 div input{  font-size: 25pt;  margin-top: 10px;  background-color: lightBlue; }
+#task3 div p {  margin-top: 50px;  color: lightGreen; }
+#task3 #res{  font-size: 24pt;  color: blue; }

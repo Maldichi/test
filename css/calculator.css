@@ -1,0 +1,38 @@
+
+
+#task1{
+  margin:auto;
+  text-align: center;
+  border-style: outset;
+  height: 450px;
+  width: 440px;
+  border-spacing: 5px;
+  border-radius: 6px;
+}
+#task1 #scr{
+  width: 400px;
+  height: 40px;
+  border-style: ridge;
+  border-color: grey;
+  margin-top: 4px;
+  margin-left: auto;
+  background: linear-gradient(grey,white);
+}
+#task1 div{
+  background-color: #777777;
+  border-radius: 6px;
+}
+#dvcalc{
+
+}
+#task1 input{
+  margin-left: auto;
+}
+#task1 div input{
+  color: white;
+  height: 80px;
+  width: 80px;
+  border-radius: 8px;
+  font-size: 20pt;
+  background: linear-gradient(black,brown);
+}
